@@ -1,0 +1,51 @@
+﻿body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    align-items: center;
+    text-align: center;
+    width: auto;
+    background-image: url(http://img05.deviantart.net/be46/i/2011/281/8/d/fairy_lights_by_verticaldubai-d4c8b2p.jpg);
+    background-position: center;
+    height: 250px;
+}
+/*
+.wrapper {
+    display: flex;
+    vertical-align: middle;
+}
+    */
+h1 {
+    color: whitesmoke;
+}
+
+a:link {
+    color: coral;
+}
+
+a:hover {
+    color: #000;
+}
+
+a:visited {
+    color: #0094ff;
+}
+
+.high {
+    background-color: darkseagreen;
+    padding: 5px;
+}
+
+.medium {
+    background-color: dodgerblue;
+    padding: 5px;
+}
+
+li {
+    padding: 5px 0px 5px 0px;
+}
+
+#class {
+
+}
