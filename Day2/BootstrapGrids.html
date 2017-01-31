@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <!--BOOTSTRAP CDN
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        -->
+    <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <title>Grids</title>
+</head>
+<body>
+    <div class="container">
+        <!--Header-->
+        <h3>Bootstrap Grids</h3>
+        <p>
+            "All columns should sum up to 12 per row."
+            <sub><a href="http://getbootstrap.com/css/#grid">Documentation</a></sub>
+        </p>
+        <!--Navigation-->
+        <p>
+            <a href="index.html" class="btn btn-success" role="button">Home</a>
+            <a href="Bootstrap.html" class="btn btn-danger" role="button">Basic Bootstrap</a>
+            <a href="BootstrapGrids.html" class="btn btn-default" role="button">Bootstrap Grid</a>
+        </p>
+        <!--List Group-->
+        <div class="row" style="margin-top: 40px">
+            <div class="col-md-9">
+                <div class="row">
+                    <!--Start Sub-divided column-->
+                    <div class="col-md-6">
+                        <ul class="list-group">
+                            <li class="list-group-item">This is a list group item. <span class="badge">1</span></li>
+                            <li class="list-group-item">This is another item. <span class="badge">2</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-group">
+                            <li class="list-group-item">This is a list group item. <span class="badge">1</span></li>
+                            <li class="list-group-item">This is another item. <span class="badge">2</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--End Column Left-->
+            </div>
+            <!--LogIn-->
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label for="email_input">Email Address</label>
+                            <input type="email" class="form-control" id="email_input" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pwd_input">Password</label>
+                            <input type="password" class="form-control" id="pwd_input" />
+                        </div>
+
+                        <input type="submit" class="btn btn-default" />
+                    </div>
+                </div>
+                <!--End LogIn Block-->
+            </div>
+            <!--End Column Right-->
+        </div>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+            <!--End Modal-->
+        </div>
+        <!--End COntainer-->
+    </div>
+
+    <!--Always put your JS here to keep your page from waiting on the scripts to render-->
+    <!--Always put jquery above JavaScript-->
+    <script src="Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+    <script src="Scripts/bootstrap.js" type="text/javascript"></script>
+
+</body>
+</html>
