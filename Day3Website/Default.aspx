@@ -29,6 +29,9 @@
         <h3><%=Name %>, glad you're here!</h3>
         <% } %>
 
+        <!--Link to another webform-->
+        <a href="About.aspx">About Form</a>
+
         <br />
 
         <!--Resources List-->
